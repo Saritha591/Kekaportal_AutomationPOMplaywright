@@ -7,5 +7,4 @@ password = config.password
 
 def test_goto_url(page):
     portal = KekaportalloginPage(page)
-    portal.goto()
     portal.kekaportalbtn()
