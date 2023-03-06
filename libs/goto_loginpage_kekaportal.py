@@ -1,7 +1,7 @@
 from data import config
 
 
-class KekaportalLoginPage:
+class KekaportalloginPage:
 
     username = config.username
     password = config.password
