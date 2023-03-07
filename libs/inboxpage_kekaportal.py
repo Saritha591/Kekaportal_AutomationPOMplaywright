@@ -8,9 +8,9 @@ class KekaportalinboxPage:
 
     def __init__(self, page):
         self.page = page
-        self.inboxtab = page.locator("//span[@class='ic-inbox sidebar-list-icon']")
-        self.Takeaction = page.locator("//a[normalize-space()='Take Action']")
-        self.notification = page.locator("//a[normalize-space()='Notifications']")
+        self.inboxtab = page.locator("//span[@class='ki-user sidebar-list-icon']")
+        self.Takeaction = page.locator("//a[@routerlink='action']")
+        self.notification = page.locator("//a[@routerlink='notifications']")
     
     def TakeAction_inbox(self):
         self.inboxtab.click()

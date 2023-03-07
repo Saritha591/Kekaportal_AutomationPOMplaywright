@@ -9,9 +9,9 @@ class KekaportalhomePage:
     def __init__(self, page):
         self.page = page
         self.homepage = page.locator(
-            "//span[@class='ic-home sidebar-list-icon']")
+            "//span[@class='ki-home sidebar-list-icon']")
         self.homepage_gotoBirthdays = page.locator(
-            "//span[@class='icon ic-cake icon-xxs icon-accent-red']")
+            "//p[@class='text-large text-dark']")
         
     def home_Pagelocator(self):
         self.homepage.click()

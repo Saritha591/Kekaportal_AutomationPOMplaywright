@@ -8,7 +8,7 @@ class KekaportalmyteamPage:
 
     def __init__(self, page):
         self.page = page
-        self.teamtab = page.locator("//li[@class='nav-item active']")
+        self.teamtab = page.locator("//ul[@class='nav topnav']")
         
         
 
