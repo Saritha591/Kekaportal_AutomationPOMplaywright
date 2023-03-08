@@ -11,7 +11,7 @@ class KekaportalhomePage:
         self.homepage = page.locator(
             "//span[@class='ki-home sidebar-list-icon']")
         self.homepage_gotoBirthdays = page.locator(
-            "//p[@class='text-large text-dark']")
+            "//p[normalize-space()='Inbox']")
         
     def home_Pagelocator(self):
         self.homepage.click()
